@@ -26,3 +26,13 @@ window.onload = () =>{
         document.querySelector('.header').classList.add('active');
     }
 };
+
+// untuk mengatur waktu pergantian slide secara otomatis 
+var counter = 1;
+setInterval(function(){
+  document.getElementById('radio' + counter).checked = true;
+  counter++;
+  if(counter > 12){  //Jika counter melebihi nilai 4, reset nilainya menjadi 1.
+    counter = 1;
+  }
+}, 5000);

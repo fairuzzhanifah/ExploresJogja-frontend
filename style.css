@@ -156,12 +156,6 @@ section{
     padding: 1rem 0;
 }
 
-/* .swiper-button-next::after,
-.swiper-button-prev::after{
-    font-size: 3rem;
-    color: #10221b;
-} */
-
 .about{
     background: #eee;
     display: -webkit-box;
@@ -294,11 +288,12 @@ section{
 }
 .des-card  h2{
     color: #2089f3;
-    margin-bottom:10px;
+    margin-bottom:3px;
 }
 .des-card p{
-    line-height: 25px;
+    line-height: 17px;
     color: #333;
+    font-size: 11px;
 }
 .bg-card a{
     text-decoration: none;
@@ -334,7 +329,6 @@ section{
 }
 
 .pantai .container{
-    /* border:1px solid red; */
     width: 100px;;
     margin: auto;
 }
@@ -370,16 +364,13 @@ width: 70%;
     width: 500%;
     height: 300px;
     display: flex;
-    width: calc(var(--radio-count) * 100%);
-  }
+ }
   .slides input{
     display: none;
-    width: calc(var(--radio-count) * 100%);
   }
   .slide{
     width: 20%;
     transition: 2s;
-    width: calc(100% / var(--radio-count));
     flex: 0 0 auto;
     float: left;
   } 
@@ -411,7 +402,7 @@ width: 70%;
   .manual-btn:hover{
     background: #0d7fcc;
   }
-  /* parangtritis */
+  /* slider konten 1 */
    #radio1:checked ~ .first{
     margin-left: 0;
   }
@@ -427,7 +418,7 @@ width: 70%;
   #radio4:checked ~ .first{
     margin-left: -60%;
   } 
-
+  /* slider konten 2 */
   #radio5:checked ~ .first{
     margin-left: 0;
   }
@@ -443,7 +434,7 @@ width: 70%;
   #radio8:checked ~ .first{
     margin-left: -60%;
   } 
-
+  /* slider konten 3 */
   #radio9:checked ~ .first{
     margin-left: 0;
   }
@@ -457,5 +448,37 @@ width: 70%;
   }
   
   #radio12:checked ~ .first{
+    margin-left: -60%;
+  } 
+   /* slider konten 4 */
+   #radio13:checked ~ .first{
+    margin-left: 0;
+  }
+  
+  #radio14:checked ~ .first{
+    margin-left: -20%;
+  }
+  
+  #radio15:checked ~ .first{
+    margin-left: -40%;
+  }
+  
+  #radio16:checked ~ .first{
+    margin-left: -60%;
+  } 
+   /* slider konten 5 */
+   #radio17:checked ~ .first{
+    margin-left: 0;
+  }
+  
+  #radio18:checked ~ .first{
+    margin-left: -20%;
+  }
+  
+  #radio19:checked ~ .first{
+    margin-left: -40%;
+  }
+  
+  #radio20:checked ~ .first{
     margin-left: -60%;
   } 
