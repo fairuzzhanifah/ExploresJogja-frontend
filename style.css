@@ -476,10 +476,19 @@ width: 70%;
     margin-left: -20%;
   }
   
-  #radio19:checked ~ .first{
+  #radio19:checked ~ .first
     margin-left: -40%;
   }
   
   #radio20:checked ~ .first{
-    margin-left: -60%;
+    margin-left: -60%
   } 
+
+  .content img{
+    float: left;
+    width: 400px;
+    height: 300px;
+    margin-right: 20px;
+    margin-bottom: 80px;
+    border-radius: 10px;
+}
