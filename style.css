@@ -488,6 +488,86 @@ width: 70%;
   #radio20:checked ~ .first{
     margin-left: -60%;
   } 
+  /* slider konten 6 */
+  #radio21:checked ~ .first{
+    margin-left: 0;
+  }
+  
+  #radio22:checked ~ .first{
+    margin-left: -20%;
+  }
+  
+  #radio23:checked ~ .first{
+    margin-left: -40%;
+  }
+  
+  #radio24:checked ~ .first{
+    margin-left: -60%;
+  } 
+  /* slider konten 7 */
+  #radio25:checked ~ .first{
+    margin-left: 0;
+  }
+  
+  #radio26:checked ~ .first{
+    margin-left: -20%;
+  }
+  
+  #radio27:checked ~ .first{
+    margin-left: -40%;
+  }
+  
+  #radio28:checked ~ .first{
+    margin-left: -60%;
+  } 
+  /* slider konten 8 */
+  #radio29:checked ~ .first{
+    margin-left: 0;
+  }
+  
+  #radio30:checked ~ .first{
+    margin-left: -20%;
+  }
+  
+  #radio31:checked ~ .first{
+    margin-left: -40%;
+  }
+  
+  #radio32:checked ~ .first{
+    margin-left: -60%;
+  } 
+  /* slider konten 9 */
+  #radio33:checked ~ .first{
+    margin-left: 0;
+  }
+  
+  #radio34:checked ~ .first{
+    margin-left: -20%;
+  }
+  
+  #radio35:checked ~ .first{
+    margin-left: -40%;
+  }
+  
+  #radio36:checked ~ .first{
+    margin-left: -60%;
+  } 
+  /* slider konten 10 */
+  #radio37:checked ~ .first{
+    margin-left: 0;
+  }
+  
+  #radio38:checked ~ .first{
+    margin-left: -20%;
+  }
+  
+  #radio39:checked ~ .first{
+    margin-left: -40%;
+  }
+  
+  #radio40:checked ~ .first{
+    margin-left: -60%;
+  } 
   
   .cagar img{
     float: left;
